@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#left, #right{
+    width: 400px;
+    min-height: 500px;
+    margin: 20px;
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+.list{
+    background: #e91e63;
+    height: 40px;
+    margin: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+    justify-content: center;
+    width: 70%;
+}
